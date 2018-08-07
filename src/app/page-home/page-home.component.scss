@@ -1,0 +1,37 @@
+.wrapper-slider{
+    position: relative;
+    height: 800px;
+    width: 714px;
+    overflow: hidden;
+    &__img{
+        height: 100%;
+
+        position: absolute;
+        left: 0;
+        left: -100%;
+        opacity: 1;
+        animation: image_mover 20s infinite;
+        @keyframes image_mover {
+             0%{left: 5%}
+            14%{left: 0%}
+
+            15%{left: -95%}
+            27%{left: -105%}
+
+            28%{left: -195%}
+            41%{left: -205%}
+
+            42%{left: -295%}
+            57%{left: -305%}
+
+            58%{left: -395%}
+            71%{left: -405%}
+
+            72%{left: -495%}
+            86%{left: -505%}
+
+            87%{left: -595%}
+            100%{left: -605%}
+        }
+    }
+}

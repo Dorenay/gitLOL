@@ -1,0 +1,22 @@
+.global-nav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to right,#836323 0,#c3a568 51%,#836323 100%);
+    border-image-slice: 1;
+    box-shadow: 0 4px 15px -2px #000 inset;
+    background-color: #233971;
+    background-image: url('/assets/img/backgrounds/navigation-bg.jpg');
+    &__link-list{
+        list-style-type: none;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        &__list-item{
+            margin-left: 7.5px;
+            margin-right: 7.5px;
+        }
+    }
+}
