@@ -2,7 +2,7 @@
   <div class="container container--lg">
     <ul class="global-nav__link-list">
       <li class="global-nav__link-list__list-item" *ngFor = 'let anchor of anchors'>
-        <a href="{{anchor.pageName}}">
+        <a routerLink="{{anchor.pageName}}">
           <app-standart-button [thisAnchor] = anchor.pageName></app-standart-button>
         </a>
       </li>
